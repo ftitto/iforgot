@@ -1,0 +1,122 @@
+ @font-face {
+    font-family: ios;
+     /*Caso a fonte esteja dentro de uma pasta*/
+     src: url("./src/font/SFProDisplay-Light.ttf");
+ }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    font-family: ios;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 50px;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    height: 40px; width: 40px;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: ios;
+}
+
+.header-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    gap: 50px;
+}
+
+.header-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.header-icons-sacola {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.main-content {
+    display: flex;
+}
+
+.main-tittle {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: ios;
+    gap: 676px;
+    margin-left: 186px;
+    margin-top: 20px;
+}
+
+.main-subitems {
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+}
+
+.id-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main-login {
+    color: black;
+    text-decoration: none;
+}
+
+.main-questions {
+    color: black;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.horizon {
+    display: flex;
+    flex: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 185px;
+    width: 73%;
+    margin-top: 10px;
+    border-bottom: 0.5px solid rgb(201, 201, 201);
+}
+
+.d1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.l1 {
+    height: 80px; width: 80px;
+    margin-top: 160px;
+} 
+
